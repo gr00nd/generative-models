@@ -37,3 +37,4 @@ wandb>=0.15.6
 webdataset>=0.2.33
 wheel>=0.41.0
 xformers>=0.0.20
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
