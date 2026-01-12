@@ -24,7 +24,7 @@ streamlit>=0.73.1
 tensorboardx==2.6
 timm>=0.9.2
 tokenizers==0.12.1
-torch>=2.0.1
+torch>=2.9.0
 torchaudio>=2.0.2
 torchdata==0.6.1
 torchmetrics>=1.0.1
@@ -32,8 +32,9 @@ torchvision>=0.15.2
 tqdm>=4.65.0
 transformers==4.19.1
 triton==2.0.0
-urllib3<1.27,>=1.25.4
+urllib3<2.6.3
 wandb>=0.15.6
 webdataset>=0.2.33
 wheel>=0.41.0
 xformers>=0.0.20
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
